@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+   <meta= "charset=" UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title> Artista Match </title>
+      <link href="style.css" rel="stylesheet">
+      <link href="script.js" rel="stylesheet" type="text/js">
+</head>
+
+<body onload="buscar()">
+   <header>
+      <h1 id="titulo"> Match </h1>
+      <p> Saiba qual artista nasceu no mesmo mês que você! </p>
+
+   </header>
+
+   <section>
+
+      <div id="input"> 
+         Mês: <input type="text" name="txtmes" id="txtmes" placeholder="Digite o mês que você nasceu">  
+         
+         <input type="button" id="btnbuscar" value="Buscar" onclick="buscar()">
+      </div>
+
+      <div id="artista"> 
+        <!-- nome do artista -->
+      Coletando dados...
+      </div>
+
+      <div id="info"> 
+      
+      </div>
+
+      <div id="foto"> 
+          <!-- foto do artista -->
+      </div>
+
+   </section>
+
+   <footer>
+      <p> &copy; LoGuim Company </p>
+   </footer>
+
+   <!-- importando os comandos em javascript da página script.js -->
+   <script src="script.js"> </script>
+
+</body>
+
+</html>
